@@ -4,14 +4,6 @@ from datetime import datetime, timedelta
 
 class SearchResult():
     def __init__(self, data):
-        if data["type"] == "query":
-            self.type = data["type"]
-            self.ad_count = data["ad_count"]
-            self.page_names = data["page_names"]
-            self.page_ids = data["page_ids"]
-            self.date_range = data["date_range"]
-            self.ads = data["ads"]
-        if data["type"] == "page":
             self.type = data["type"]
             self.ad_count = data["ad_count"]
             self.page_names = data["page_names"]
