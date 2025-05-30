@@ -35,7 +35,7 @@ search_by_query = client.search(type="query", query="Something you want search")
 search_by_page_id = client.search(type="page", page_id="18490320840932")
 
 # Search ads in a date range
-search_by_query_with_date_range = client.search(type="query", query="Something you want search", date_min="2025-01-01", date_max="2025-01-16") # Return ads that match "Nitnendo" in between these dates
+search_by_query_with_date_range = client.search(type="query", query="Something you want search", date_min="2025-01-01", date_max="2025-01-16") # Return ads that match the query in between these dates
 
 """
 The response will be a SearchResult object that can be used like this:
